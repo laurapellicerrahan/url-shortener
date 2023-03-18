@@ -21,7 +21,8 @@ const Redirect = () => {
 
 
     return (
-        <div>
+        <div className='url-not-valid'>
+            URL NOT VALID 🥲
         </div>
     )
 }

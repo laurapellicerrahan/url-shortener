@@ -24,6 +24,7 @@ function Login() {
             if (storeToken) {
                 localStorage.setItem('token', token);
             }
+            console.log(token);
             navigate("/cut-url");
         } catch (error) {
             console.error(error);
